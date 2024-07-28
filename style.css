@@ -52,10 +52,10 @@ body {
     border-top: 2px solid #f0f0f0;
     height: 90px;
     width: 100%;
+    top: 0;
+    position: sticky;
     display: flex;
     justify-content: center;
-
-
 
     .box-1 {
         cursor: pointer;
@@ -274,6 +274,7 @@ body {
             height: 6px;
             background-color: #1b53ba;
             bottom: -6px;
+
         }
     }
 
@@ -336,4 +337,201 @@ body {
         color: #fff;
     }
 
+}
+
+
+.login-box {
+
+    position: relative;
+
+    .login-div {
+        position: fixed;
+        background-color: red;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 176px;
+        width: 59px;
+        left: 2.6%;
+        margin-top: 15px;
+        border: solid 2px black;
+        border-left: 0;
+        border-radius: 0 25px 0 0;
+        background-color: #54b564;
+
+        .login {
+            position: absolute;
+            top: 20%;
+            left: 19%;
+
+            img {
+                text-decoration: none;
+                width: 27px;
+                height: 27px;
+            }
+
+            a {
+                color: #fff;
+                text-decoration: none;
+            }
+        }
+    }
+
+    .search-div {
+        position: absolute;
+        height: 67px;
+        color: #fff;
+        font-size: 175%;
+        font-weight: 500;
+        width: 100%;
+        top: 65%;
+        line-height: 67px;
+        text-align: center;
+        background-image: url(./assits/profile-nav-search-bg.png);
+    }
+}
+
+.search-div:hover {
+    background-image: url(./assits/profile-nav-search-bg-hover.png);
+}
+
+.big-container {
+    height: 2350px;
+    width: 1280px;
+    margin: 0 auto;
+    background: #fff url(./assits/container_bg.png);
+    /* display: flex; */
+
+    .big-box {
+        width: 890px;
+        height: 100%;
+        margin: 0 auto;
+        background-color: #fff;
+        padding-top: 35px;
+
+        .baap {
+            height: 457px;
+            width: 578px;
+            margin-left: 20px;
+
+            img {
+                border-radius: 5px 5px 0 0;
+            }
+
+            .pink-div {
+                background-color: #ff90c4;
+                height: 130px;
+                border-radius: 0 0 5px 5px;
+                width: 578px;
+                margin-top: -5px;
+                display: flex;
+                padding-top: 1.5em;
+                padding-bottom: 0.25em;
+
+
+                .heading h3 {
+                    font-size: 125%;
+                    line-height: 125%;
+                    text-transform: none;
+                    font-family: "Flexo-Medium", arial, sans-serif;
+                    color: #f0f0f0;
+                    margin-left: 0.89em;
+
+                }
+
+                p {
+                    font-family: "Roboto", arial, sans-serif;
+                    font-size: 88%;
+                    font-weight: 500;
+                    line-height: 125%;
+                    margin-left: 1.25em;
+                    padding-top: 10px;
+                    color: #c3005b;
+                }
+
+                .s-pic {
+                    display: flex;
+                    align-items: flex-end;
+                    margin-top: 33px;
+                    padding-left: 9.87px;
+                    height: 73px;
+                    width: 187px;
+
+                    img {
+
+                        border-radius: 0 0 5px 0;
+                    }
+                }
+            }
+
+            .baap-two {
+                display: flex;
+                justify-content: space-between;
+
+                .bacha-one {
+                    height: 254px;
+                    width: 280px;
+                    margin-top: 20px;
+
+                    img {
+                        width: 100%;
+                        border-radius: 10px 10px 0 0;
+                    }
+
+                    .yellow-div {
+                        display: flex;
+                        background-color: #e6bc2f;
+                        height: 97px;
+                        border-radius: 0 0 10px 10px;
+                        margin-top: -5px;
+                        padding-top: 1.5em;
+                        padding-bottom: 0.25em;
+                        justify-content: center;
+
+                        h3 {
+                            color: #fff;
+                            height: 55px;
+                            width: 247px;
+                            font-size: 22px;
+                            font-weight: 500;
+
+                        }
+                    }
+
+                }
+
+                .bacha-two {
+                    height: 254px;
+                    width: 280px;
+                    margin-top: 20px;
+
+                    img {
+                        width: 100%;
+                        border-radius: 10px 10px 0 0;
+                    }
+                    .green-div {
+                        display: flex;
+                        background-color: #4dad5b;
+                        height: 97px;
+                        border-radius: 0 0 10px 10px;
+                        margin-top: -5px;
+                        padding-top: 1.5em;
+                        padding-bottom: 0.25em;
+                        justify-content: center;
+
+                        h3 {
+                            color: #fff;
+                            height: 55px;
+                            width: 247px;
+                            font-size: 22px;
+                            font-weight: 500;
+
+                        }
+                    }
+
+                }
+            }
+
+        }
+    }
 }
